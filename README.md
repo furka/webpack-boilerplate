@@ -1,6 +1,6 @@
-This is a webpack 4 boilerplate.
+This is a webpack 5 / lit boilerplate.
 
-- dev server `npm start`
+- dev server: `npm start`
 - compiles js via Babel
-- loaders for YAML, lit-html, Sass
+- loaders for YAML
 - Prettier & eslint on commit

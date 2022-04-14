@@ -9,24 +9,9 @@ module.exports = {
         exclude: /node_modules/,
         use: ["babel-loader"],
       },
-
       {
-        test: /\.(scss|css|sass)$/,
-        use: [
-          {
-            loader: "style-loader",
-          },
-          {
-            loader: "css-loader",
-          },
-          {
-            loader: "sass-loader",
-          },
-        ],
-      },
-      {
-        test: /\.yaml$/,
-        use: [{ loader: "json-loader" }, { loader: "yaml-loader" }],
+        test: /\.ya?ml$/,
+        use: "yaml-loader",
       },
     ],
   },
